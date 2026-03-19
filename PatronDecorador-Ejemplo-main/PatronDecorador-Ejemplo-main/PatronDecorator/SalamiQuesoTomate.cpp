@@ -4,7 +4,7 @@
 
 #include "SalamiQuesoTomate.h"
 
-SalamiQuesoTomate::SalamiQuesoTomate(Calzone *calzone) {
+SalamiQuesoTomate::SalamiQuesoTomate(Calzone *calzone) : DecoradorCalzone(calzone) {
 }
 
 string SalamiQuesoTomate::descripcion() const {

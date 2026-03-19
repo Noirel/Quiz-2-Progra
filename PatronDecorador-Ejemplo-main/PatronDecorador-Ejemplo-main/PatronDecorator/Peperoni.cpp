@@ -4,7 +4,6 @@
 
 #include "Peperoni.h"
 
-
 Peperoni::Peperoni(Pizza *pizza) : DecoradorPizza(pizza) {
 }
 

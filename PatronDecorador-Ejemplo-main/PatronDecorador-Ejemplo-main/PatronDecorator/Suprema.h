@@ -8,8 +8,7 @@
 
 class Suprema : public DecoradorPizza {
 public:
-    Suprema();
-    Suprema(Pizza* pizza);
+    explicit Suprema(Pizza* pizza);
     string descripcion() const override;
     double costo() const override;
 

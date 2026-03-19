@@ -8,8 +8,7 @@
 
 class TocinoHongos : public DecoradorCalzone {
 public:
-    TocinoHongos();
-    TocinoHongos(Calzone* calzone);
+    explicit TocinoHongos(Calzone* calzone);
     string descripcion() const override;
     double costo() const override;
 };

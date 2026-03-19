@@ -4,12 +4,7 @@
 
 #include "Suprema.h"
 
-Suprema::Suprema() {
-    this->pizza = nullptr;
-}
-
-Suprema::Suprema(Pizza *pizza) {
-    this->pizza = pizza;
+Suprema::Suprema(Pizza *pizza) : DecoradorPizza(pizza) {
 }
 
 string Suprema::descripcion() const {

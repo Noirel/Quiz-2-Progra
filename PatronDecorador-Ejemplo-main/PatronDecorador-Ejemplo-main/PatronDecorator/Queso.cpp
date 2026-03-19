@@ -8,7 +8,7 @@ Queso::Queso() {
 }
 
 string Queso::descripcion() const {
-    return "PizzaQueso";
+    return "PizzaSimple";
 }
 
 double Queso::costo() const {

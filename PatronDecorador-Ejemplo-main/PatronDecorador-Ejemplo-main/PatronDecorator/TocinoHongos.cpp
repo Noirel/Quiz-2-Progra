@@ -4,12 +4,7 @@
 
 #include "TocinoHongos.h"
 
-TocinoHongos::TocinoHongos() {
-    this->calzone = nullptr;
-}
-
-TocinoHongos::TocinoHongos(Calzone *calzone) {
-    this->calzone = calzone;
+TocinoHongos::TocinoHongos(Calzone *calzone) : DecoradorCalzone(calzone) {
 }
 
 string TocinoHongos::descripcion() const {
